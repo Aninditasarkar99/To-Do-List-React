@@ -1,0 +1,96 @@
+body{
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwzNDA1NjcyfHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+    
+}
+
+.container{
+    margin-top: 1px;
+    padding: 7px;
+    background-color: rgba(70, 69, 67, 0.212);
+    border-radius: 8px;
+    width: 70%;
+    border-style: outset;
+    border-color: rgb(246, 248, 248);
+}
+
+h2{
+    color: aliceblue;
+}
+
+span{
+    color: aliceblue;
+}
+.taskBg {
+    background-color: #555;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 10px 140px 10px 15px;
+    text-align: left;
+    font-size: 22px;
+    position: relative;
+
+}
+.taskBg div{
+    display: flex;
+    align-items: center;
+}
+.taskBg .done .taskText{
+    text-decoration: line-through;
+    opacity: 0.3;
+    flex: 1;
+}
+.taskNumber{
+    color:#999;
+    border: 1px solid #999;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.iconsWrap{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    width: auto;
+    display: inline-block;
+}
+.taskBg .iconsWrap span{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+    color: #00ff89
+}
+.taskBg .done .taskText{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+.taskBg .taskText{
+    flex:1;
+}
+.taskBg .iconsWrap span:hover{
+    color: yellow;
+}
+.col-auto{
+    padding: 5px;
+    float:right;
+    margin-left: 5px;
+}
+.row{
+    padding:5px;
+    margin:1px;
+}
+.btn{
+    margin: 5px;
+}
+
+
+
